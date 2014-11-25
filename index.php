@@ -1,7 +1,4 @@
 <?php
-ini_set('error_reporting', 6135);
-ini_set('display_errors', 'On');
-
 define('APP_DOCUMENT_ROOT', dirname(__FILE__));
 require_once APP_DOCUMENT_ROOT . '/config.php';
 include_once APP_DOCUMENT_ROOT . '/libs/slim/autoload.php';
